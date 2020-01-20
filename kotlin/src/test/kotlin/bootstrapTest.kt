@@ -28,6 +28,6 @@ class BootstrapTest {
         order.addProduct(music1, 1)
         order.addProduct(music2, 1)
 
-        assertThat(order.totalAmount).isEqualTo(30)
+        assertThat(order.totalAmount).isEqualTo(50)
     }
 }
