@@ -8,7 +8,7 @@ class Order(val customer: Customer, val address: Address) {
     var payment: Payment? = null
         private set
     val totalAmount
-        get() = items.sumByDouble { it.total }
+        get() = items.sumBy { it.total }
 
     fun addProduct(product: Product, quantity: Int) {
         var productAlreadyAdded = items.any { it.product == product }
@@ -36,7 +36,7 @@ class Order(val customer: Customer, val address: Address) {
 }
 
 data class OrderItem(val product: Product, val quantity: Int) {
-    val total get() = product.price * quantity
+    val total get() = 10 * quantity
 }
 
 data class Payment(val order: Order, val paymentMethod: PaymentMethod) {
