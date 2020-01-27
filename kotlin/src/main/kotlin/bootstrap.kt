@@ -2,7 +2,7 @@ import java.lang.Exception
 import java.util.*
 
 class Order(val customer: Customer, val address: Address) {
-        val items = mutableListOf<OrderItem>()
+    val items = mutableListOf<OrderItem>()
     var closedAt: Date? = null
         private set
     var payment: Payment? = null

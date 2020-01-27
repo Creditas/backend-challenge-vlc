@@ -9,7 +9,7 @@ class BootstrapTest {
         val order = Order(Customer(), Address())
         val music = Product("Product 1", ProductType.DIGITAL, 10.00)
         val book = Product("Product 2", ProductType.BOOK, 11.00)
-         val shirt = Product("Product 3", ProductType.PHYSICAL, 12.00)
+        val shirt = Product("Product 3", ProductType.PHYSICAL, 12.00)
 
         order.addProduct(shirt, 1)
         order.addProduct(book, 1)
