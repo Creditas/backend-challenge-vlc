@@ -1,12 +1,10 @@
-# A small journey in an eXtremme Programming team
+# A small journey to improve our payment stream
 
 This is the Backend challenge for Creditas Valencia.
 
-You are part of an [Extreme Programming](http://www.extremeprogramming.org/) team. You all share [some values](http://www.extremeprogramming.org/values.html) and have agreed to the same [rules](http://www.extremeprogramming.org/rules.html).
-
 You already spent a whole week discovering what the existing payment stream is like. After your investigation it turns out the sytem is fragile because it requires large modifications whenever a new item is sent or removed. The code was written by a previous team and you suspect they didn't follow good practices.
 
-After some product discovery done together with the Product Manager and some other members of the team you decide together that the payment system needs to evolve and it should be able to handle the following scenarios:
+After some technical discovery with other members of the team you decide together that the payment system needs to evolve and it should be able to handle the following scenarios:
 
 + If the payment is for a physical item, you must generate one `shipping label` for it to be placed in the shipping box.
 + If payment is for a subscription service, you must activate the subscription, and notify the user via email about this.
@@ -15,6 +13,7 @@ After some product discovery done together with the Product Manager and some oth
 
 ## Tips
 
+* We value [Extremme Programming](http://www.extremeprogramming.org/) practices and [rules](http://www.extremeprogramming.org/rules.html).
 * Feel free to modify/refactor the bootstrap files if you think it's necessary.
 * Don’t over-engineer your solution! Your Extremme Programming team loves clean and cohesive code, so try to keep it simple.
 * It’s ok if you use third-party libraries, but be aware that your team prefers a vanilla solution.
